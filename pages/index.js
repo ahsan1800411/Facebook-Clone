@@ -7,7 +7,7 @@ import Sidebar from "../components/Sidebar";
 export default function Home({ session }) {
   if (!session) return <Login />;
   return (
-    <div>
+    <div className='h-screen bg-gray-100 overflow-hidden'>
       <Head>
         <title>Facebook</title>
       </Head>
